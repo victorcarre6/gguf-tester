@@ -1,0 +1,3 @@
+# Core package and developer tools. llama-cpp-python is installed separately
+# because CPU and CUDA builds require different options.
+-e .[dev]

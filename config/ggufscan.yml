@@ -1,0 +1,10 @@
+# Project-specific local LLM-as-judge. These are proxy metrics, not the
+# official RAGAS library metrics.
+judge:
+  # Set a GGUF path here to enable the judge automatically, or use
+  # --judge-model for one run.
+  model: null
+  n_ctx: 4096
+  max_tokens: 512
+  temperature: 0.0
+  tensor_split: [0.5, 0.5]
