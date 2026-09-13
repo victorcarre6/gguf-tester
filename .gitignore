@@ -1,0 +1,19 @@
+# Exclusions spécifiques au projet
+/lab/
+/resources/
+/docs/
+.python-version
+*.egg-info/
+CLAUDE.md
+AGENTS.md
+
+# Fichiers de sortie (conserve la structure si besoin)
+/outputs/*
+!/outputs/.gitkeep
+
+# Cache Python et environnement
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.coverage
